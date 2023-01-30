@@ -14,4 +14,8 @@
 "_": "Credential format is USER:PASS",
     "auth": false,
     "credential": ""
-}}
+}
+data = "https://www.tiktok.com/@thrivewithadhd/video/7193542895717371182"
+data = data.split("/")[-1] # Get the ID from the URL
+data = data.split("?")[0] # Remove any arguments from the URL
+data = data.split("&")[0] # Remove any arguments from the URL

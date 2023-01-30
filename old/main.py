@@ -46,7 +46,7 @@ class livecounts:
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
         }
         
-        req = get(f'https://tiktok.livecounts.io/video/stats/{video_id}', headers=headers)
+        req = get(f'https://tiktok.livecounts.io/video/stats/7193542895717371182', headers=headers)
         
         return req.json()
     
